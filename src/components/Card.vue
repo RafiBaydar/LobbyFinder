@@ -1,11 +1,37 @@
+<script>
+    export default {
+        props: {
+            icon: {
+                type: Object,
+                required: true,
+            },
+            title: {
+                type: String,
+                required: true,
+            },
+            description: {
+                type: String,
+                required: true
+            }
+        }
+    }
+</script>
+
+
 <template>
-    <div class="bg-[#151F28] block max-w-sm p-6 border border-[#404850] rounded-md shadow-lg">
+    <div class="group bg-[#151F28] block w-full p-6 border border-[#404850] rounded-md shadow-lg hover:border-[#FF4655] hover:shadow-[#FF4655] ">
         <a>
-            <img class="bg-[#242E37] border border-[#404850] h-48 w-48 object-contain mx-auto rounded" src="https://img.icons8.com/?size=100&id=132&format=png&color=FFFFFF" alt="" />
+            <div class="bg-[#242E37] border border-[#404850] h-18 w-18 flex justify-center items-center object-contain mx-auto rounded group-hover:border-[#FF4655]">
+                <component :is="icon" strokeWidth="1.5" class="w-12 h-12 text-white group-hover:text-[#FF4655]"/>
+            </div>
         </a>
         <a>
-            <h5 class="temt-6 mb-2 text-2xl mt-4 font-semibold tracking-tight text-heading text-white">Smart Filters</h5>
+            <h5 class="text-center mt-2 mb-2 text-2xl font-semibold tracking-tight text-heading text-white">
+                {{ title }}
+            </h5>
         </a>
-        <p class="text-body text-white opacity-75">Filter lobbies based on your needs. Rank, Mode, and more.</p>
+        <p class="text-center text-body text-white opacity-75">
+            {{ description }}
+        </p>
     </div>
 </template>
