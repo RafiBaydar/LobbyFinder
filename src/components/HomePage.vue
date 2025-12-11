@@ -2,10 +2,8 @@
 
 import NavBar from './NavBar.vue';
 import Hero from './HeroHome.vue';
-import Card from './Card.vue';
-import CardGames from './CardGames.vue';
+import Card from './CardHome.vue';
 import Footer from './Footer.vue';
-
 import { Search, Users, Zap } from 'lucide-vue-next';
 
 const info = [
