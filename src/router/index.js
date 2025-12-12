@@ -7,7 +7,8 @@ import AboutPage from '@/components/AboutPage.vue';
 import ValorantLobbyPage from '@/components/ValorantLobbyPage.vue';
 import LoginPage from '@/components/LoginPage.vue';
 import Forgot from '@/components/ForgotPasswordPage.vue';
-import Register from '@/components/RegisterPage.vue'
+import Register from '@/components/RegisterPage.vue';
+import COTSPage from '@/components/cots/COTSPage.vue';
 
 
 const routes = [
@@ -51,6 +52,11 @@ const routes = [
         name: "AboutPage",
         component: AboutPage,
     },
+    {
+        path: "/aboutme",
+        name: "COTSPage",
+        component: COTSPage,
+    }
 ]
 
 const router = createRouter({

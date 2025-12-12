@@ -48,6 +48,7 @@ const handleLogout = () => {
             <RouterLink to="/games" class="nav-link text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Games</RouterLink>
             <RouterLink to="/about" class="nav-link text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">About</RouterLink>
             <RouterLink to="/contact" class="nav-link text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Contact</RouterLink>
+            <RouterLink to="/aboutme" class="nav-link text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">About Me</RouterLink>
           </div>
         </div>
       </div>
@@ -87,6 +88,7 @@ const handleLogout = () => {
       <RouterLink to="/games" class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Games</RouterLink>
       <RouterLink to="/about" class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">About</RouterLink>
       <RouterLink to="/contact" class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Contact</RouterLink>
+      <RouterLink to="/aboutme" class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">About Me</RouterLink>
     </div>
   </div>
 </nav>

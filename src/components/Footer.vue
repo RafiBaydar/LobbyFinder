@@ -28,6 +28,11 @@
               Contact
             </RouterLink>
           </li>
+          <li>
+            <RouterLink to="/aboutme" class="hover:underline">
+              About Me
+            </RouterLink>
+          </li>
         </ul>
       </div>
       <hr class="my-6 border-neutral-200 sm:mx-auto lg:my-8" />
